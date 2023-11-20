@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Pricing Component With Toggle Master</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="header-section">
+        <div class="header-container">
+          <h1 class="header-title">Our Pricing</h1>
+          <div class="toggle-container">
+            <p class="annual-toggle">Annually</p>
+            <input type="checkbox" id="toggle_btn" />
+            <label for="toggle_btn" class="toggle-label"></label>
+            <p class="monthly-toggle">Monthly</p>
+          </div>
+        </div>
+      </section>
+      <section class="main-section">
+        <article class="basic-container">
+          <h3 class="basic-title">Basic</h3>
+          <h1 class="basic-price">
+            &dollar;<span class="basic-number">199.99</span>
+          </h1>
+          <div class="basic-benefits">
+            <p class="basic-benefit">500 GB Storage</p>
+            <p class="basic-benefit">2 Users Allowed</p>
+            <p class="basic-benefit">Send up to 3 GB</p>
+          </div>
+          <button class="basic-btn">Learn More</button>
+        </article>
+
+        <article class="professional-container">
+          <h3 class="professional-title">Professional</h3>
+          <h1 class="professional-price">
+            &dollar;<span class="professional-number">249.99</span>
+          </h1>
+          <div class="professional-benefits">
+            <p class="professional-benefit">1 TB Storage</p>
+            <p class="professional-benefit">5 Users Allowed</p>
+            <p class="professional-benefit">Send up to 10 GB</p>
+          </div>
+          <button class="professional-btn">Learn More</button>
+        </article>
+
+        <article class="master-container">
+          <h3 class="master-title">Master</h3>
+          <h1 class="master-price">
+            &dollar;<span class="master-number">399.99</span>
+          </h1>
+          <div class="master-benefits">
+            <p class="master-benefit">2 TB Storage</p>
+            <p class="master-benefit">10 Users Allowed</p>
+            <p class="master-benefit">Send up to 20 GB</p>
+          </div>
+          <button class="master-btn">Learn More</button>
+        </article>
+      </section>
+    </main>
+    <!-- &dollar;19.99 -->
+    <!-- &dollar;24.99 -->
+    <!-- &dollar;39.99 -->
+    <footer class="footer-forced">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Muhammad Desai</a>.
+      </div>
+    </footer>
+  </body>
+</html>
